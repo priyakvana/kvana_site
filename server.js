@@ -11,3 +11,4 @@ app.get('/*', function(req, res){
 })
 
 console.log("listen on port");
+console.log(path.join(__dirname + '/src/index.html'));
