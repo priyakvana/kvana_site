@@ -12,6 +12,7 @@ import { ServicesComponent } from './services/services.component';
 import { CareerComponent } from './career/career.component';
 import { ContactComponent } from './contact/contact.component';
 import {routing} from './app.routing';
+import { NewComponent } from './new/new.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {routing} from './app.routing';
     ServicesComponent,
  
     CareerComponent,
-    ContactComponent
+    ContactComponent,
+    NewComponent
   ],
   imports: [
     BrowserModule, routing

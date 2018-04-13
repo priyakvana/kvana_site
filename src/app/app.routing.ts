@@ -28,6 +28,6 @@ const appRoutes:Routes=[
     path:'services',
     component:ServicesComponent
     }
-    
+       
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes)
