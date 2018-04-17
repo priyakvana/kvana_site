@@ -9,8 +9,9 @@
     margin: 0 auto; /* Align slide image horizontally center */
 }
 .bs-example{
-    margin: 20px;
- 
+    margin: 0 auto;
+    padding: 10px;
+  background-image: url("/assets/images/theme22.png") ; 
 }
 
 .container-fluid{
@@ -41,4 +42,64 @@ body {
   }
 
 
-  
+
+  #hero h2 {
+      align:center;
+  }
+
+#hero {
+  display: inline;
+  background: aquamarine;
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-color: aquamarine;
+  }
+}
+
+#hero .hero-logo {
+  margin: 20px;
+}
+
+#hero .hero-logo img {
+  max-width: 100%;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero h2 {
+  color: #999;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  #hero h2 .rotating {  
+    display: block;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+#hero .rotating > .animated {
+  display: inline-block;
+
+}
