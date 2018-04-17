@@ -1,4 +1,7 @@
 
+#services{
+  padding-bottom: 20%;
+}
   #services .service-item {
     margin-bottom: 20px;
   }
@@ -41,9 +44,7 @@
     line-height: 24px;
   }
 
-  #services{
-    padding-top: 5%;
-  }
+ 
 
 
 
