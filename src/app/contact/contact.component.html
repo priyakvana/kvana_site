@@ -36,7 +36,7 @@
               <div class="info">
                 <div>
                   <i class="fa fa-map-marker"></i>
-                  <p style="font-size:17px;">#302, Harsha Homes, CBI colony,<br>  Madhapur, Hyderabad-500081, India. <br>
+                  <p style="font-size:20px;"><b>#302, Harsha Homes, CBI colony,<br>  Madhapur, Hyderabad-500081, India. <br></b>
                   (040) 4853 3949, (+91) 96406 85656</p>
                 </div>
               </div>
@@ -55,22 +55,22 @@
             <form action="mailto: contact@kvana.com" method="post" role="form" class="contactForm">
               <div class="form-group">
                   <p><b>Name:</b></p>
-                <input type="text" name="name" class="form-control" id="name" placeholder="" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                   <p><b>Email:</b></p>
-                <input type="email" class="form-control" name="email" id="email" placeholder="" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="" data-rule="email" data-msg="Please enter a valid email" required />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                   <p><b>Subject:</b></p>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" required data-msg="Please enter at least 8 chars of subject" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                   <p><b>Message:</b></p>
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Enter"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" required placeholder="Enter"></textarea>
                 <div class="validation"></div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>

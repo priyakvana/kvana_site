@@ -1,4 +1,7 @@
 .container{
     padding-bottom: 100px;
-    padding-top: 5%;
+    font-weight:200;
+    font-family: "AppleSystemUIFontItalic";
+    font-size: 19px;
+    font-style: italic;
 }

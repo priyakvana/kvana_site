@@ -1,6 +1,6 @@
 
 #services{
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
   #services .service-item {
     margin-bottom: 20px;
@@ -42,6 +42,7 @@
   #services .service-description {
     margin-left: 80px;
     line-height: 24px;
+  
   }
 
  
@@ -109,4 +110,15 @@ Class name automatically added to element */
 }
 
 
-  
+ .container wow fadeInUp{
+  font-size: 25px;
+  /* font-style: italic; */
+  font-weight:200;
+  font-family: "AppleSystemUIFontItalic";
+ } 
+ .row{
+  font-size: 16px;
+  font-style: italic;
+  font-weight:200;
+  font-family: "AppleSystemUIFontItalic";
+ }

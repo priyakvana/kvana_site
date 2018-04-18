@@ -7,7 +7,7 @@
 
 /* Button */
 .button_all {
-  font: 700 18px/59px "Roboto", sans-serif;
+  font: 700 18px/59px "AppleSystemUIFontItalic";
   width: 180px;
   text-align: center;
   background: #f6b60b;
@@ -48,7 +48,7 @@
   text-transform: uppercase;
 }
 .tittle h2 {
-  font: 400 24px "Oswald", sans-serif;
+  font: 400 24px "Oswald";
   color: #222222;
   padding-top: 90px;
   position: relative;
@@ -177,9 +177,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background: #f6b60b;
   color: #111f29;
 }
+
+/* End Top header */
+/* Top header 2 */
 .top_header_area.top_header {
   background-color: transparent;
-  position: absolute;
+  position: relative;
   overflow: hidden; 
 }
 .top_header_area.top_header .right_top_header {
@@ -223,7 +226,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   max-width: 100%;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a {
-  font: 700 14px/100px "Roboto", sans-serif;
+  font: 700 14px/100px "AppleSystemUIFontItalic";
   color: #222222;
   text-transform: uppercase;
   padding: 0;
@@ -263,7 +266,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul li a {
   line-height: normal;
-  font: 700 14px/normal "Roboto", sans-serif;
+  font: 700 14px/normal "AppleSystemUIFontItalic";
   padding: 12px 8px;
   display: block;
 }
